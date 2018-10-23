@@ -1,0 +1,2 @@
+create table botanicalName(genericName varchar(10), speciesName varchar(20), family varchar(10),commonName varchar(10), 
+primary key(genericName,speciesName));
