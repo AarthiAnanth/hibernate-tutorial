@@ -10,6 +10,6 @@
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">Anak@1604</property>
         <property name="show_sql">true</property>
-        <mapping class="com.infy.drivinglicense.DrivingLicense"/>
+        <mapping class="com.infy.studentdetails.Student"/>
     </session-factory>
 </hibernate-configuration>
