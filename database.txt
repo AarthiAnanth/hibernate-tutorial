@@ -1,0 +1,11 @@
+
+create table customer
+(customerId int primary key default 0,customerName varchar(10),
+dateOfBirth date,address varchar(20),contactNumber int);
+
+
+create table loan
+(loanId int primary key, loanName varchar(10),
+rateOfInterest float);
+
+create table customerLoan (customerId int, loanId int,eligibleAmount int,avaliableAmount int,tenureInYear int,primary key(customerId,loanId));
