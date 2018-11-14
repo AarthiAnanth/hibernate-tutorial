@@ -1,0 +1,3 @@
+
+create table desktopEntity(machineEntity varchar(10) primary key,make varchar(10));
+create table traineeEntity(id int primary key,name varchar(10),machineEntity  varchar(10));
