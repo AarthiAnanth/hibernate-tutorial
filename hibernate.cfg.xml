@@ -10,7 +10,7 @@
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">Anak@1604</property>
         <property name="show_sql">true</property>
-        <mapping class="com.infy.trainingInstitute.DesktopEntity"/>
-        <mapping class="com.infy.trainingInstitute.TraineeEntity"/>
+        <mapping class="com.infy.classroom.ClassRoomEntity"/>
+        <mapping class="com.infy.classroom.TraineeEntity"/>
     </session-factory>
 </hibernate-configuration>
